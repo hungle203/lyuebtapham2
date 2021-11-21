@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let banKinh = prompt("Nhập bán kính");
+    function areaCircle (input) {
+        let r = parseInt(input);
+        return r*r * Math.PI;
+    }
+    function chuVi(input) {
+        let r = parseInt(input)
+        return r* 2* Math.PI;
+    }
+    document.write("Diện tích hình tròn là: " + areaCircle(banKinh)+ "<br>")
+    document.write("Chu vi hình tròn là: " + chuVi(banKinh))
+</script>
+</body>
+</html>
